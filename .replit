@@ -1,0 +1,5 @@
+language = "typescript"
+run = "npx sls invoke local -f hello --path src/functions/hello/mock.json"
+
+[packager]
+ignoredPaths=["@libs"]
